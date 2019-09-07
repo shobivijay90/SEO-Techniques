@@ -1,0 +1,43 @@
+$black: #181818;
+$border: #e80051;
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $black;
+}
+
+.container{
+    width: 100%;
+}
+.techniques{
+    width: 40%;
+    margin: 50px auto;
+    border: 2px solid $border;
+    background-color: $black;
+    color: white;
+    box-shadow: 5px 5px 10px $border;
+}
+h2{
+    text-align: center;
+    padding: 3%;
+    color: $border;
+}
+input{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: $black;
+}
+.component{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+.item{
+    padding-left: 20px;
+}
